@@ -32,8 +32,9 @@ x_train,x_test,y_train,y_test = train_test_split(x,y,test_size = 0.2,random_stat
 
 
 
-model=XGBRegressor(n_estimators=100,random_state=0)
+#model=XGBRegressor(n_estimators=100,random_state=0)
 #model=XGBRegressor()
+model=DecisionTreeRegressor()
 #model=LinearRegression()
 #model=RandomForestRegressor()
 model.fit(x_train,y_train)
