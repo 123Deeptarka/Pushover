@@ -49,7 +49,7 @@ def user_input_features():
     fyt =st.sidebar.number_input("fyt",value=450.000,format="%.3f")
     pl =st.sidebar.number_input("pl",value=0.190,format="%.3f")
     pt =st.sidebar.number_input("pt",value=0.190,format="%.3f")
-    Ny =st.sidebar.number_input("Ny",value=0.550,format="%.3f")
+    Ny =st.sidebar.number_input("Ny",value=0.0550,format="%.3f")
     data={"D":D,"LD":LD,"fc":fc,"fyl":fyl,"fyt":fyt,"pl":pl,"pt":pt,"Ny":Ny}
     features=pd.DataFrame(data,index=[0])
     features_round=features.round(2)
