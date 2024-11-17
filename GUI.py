@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st 
 import numpy as np 
 from xgboost import XGBRegressor
-from sklearn.linear_model inmport LinearRegression
+from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 #rom tensorflow.keras.models import Sequential
 #rom tensorflow.keras.layers import Conv1D,Activation,MaxPooling1D,Dense,Flatten
